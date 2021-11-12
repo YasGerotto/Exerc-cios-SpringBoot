@@ -21,6 +21,7 @@ import br.com.generation.blogpessoal.repository.TemaRepository;
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*" )
 @RequestMapping("/tema")
+
 public class TemaController {
 
 @Autowired

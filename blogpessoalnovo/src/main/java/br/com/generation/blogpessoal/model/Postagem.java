@@ -29,7 +29,7 @@ public class Postagem {
 	private String titulo;
 	
 	@NotBlank(message = "o texto precisa estar entre 100 e mil")
-	@Size(min = 5, max = 1000 , message = "o texto é obrigatório")
+	@Size(min = 5, max = 1000, message = "necessario colocar texto")
 	private String texto;
 
 	@Temporal(TemporalType.TIMESTAMP)
