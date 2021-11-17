@@ -13,7 +13,7 @@ import br.com.generation.lojadeGames.model.Categoria;
 
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Long> {
-	public List<Categoria> findAllByGeneroContainingIgnoreCase(String genero);
+	public List<Categoria> findAllByGeneroContainingIgnoreCase (String genero);
 
 	
 }

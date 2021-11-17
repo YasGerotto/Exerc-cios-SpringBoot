@@ -35,11 +35,9 @@ public class Categoria {
 
 
 	@NotNull(message = "o campo é obrigatório")
-	@Size(min = 5, max = 100)
 	private String plataforma;
 	
 	@NotNull(message = "o campo é obrigatório")
-	@Size(min = 5, max = 100)
 	private String condicao;
 
 	@OneToMany(mappedBy = "categoria", cascade = CascadeType.ALL )
